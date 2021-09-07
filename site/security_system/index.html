@@ -1,0 +1,900 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="安全笔记是专注安全防御解决方案,通过搜集、整理、验证、加工安全防护知识，提供一套完整的安全防御解决方案，帮助企业提升安全防护能力">
+      
+      
+      
+        <meta name="author" content="anquanbiji.com">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
+    
+    
+      
+        <title>概述 - 安全笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.f7f47774.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="安全笔记" class="md-header__button md-logo" aria-label="安全笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            安全笔记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              概述
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="安全笔记" class="md-nav__button md-logo" aria-label="安全笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    安全笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        安全系统
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="安全系统" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          安全系统
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          概述
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        概述
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    怎样建个安全系统
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    安全设计
+  </a>
+  
+    <nav class="md-nav" aria-label="安全设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    威胁建模
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    具体解释
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    权限设计
+  </a>
+  
+    <nav class="md-nav" aria-label="权限设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    常见的问题
+  </a>
+  
+    <nav class="md-nav" aria-label="常见的问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    无统一配置访问控制的限制
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#userid" class="md-nav__link">
+    关键字段(如userid)未随机化/加密展示
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    其他建议
+  </a>
+  
+    <nav class="md-nav" aria-label="其他建议">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    前后台拆分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    有关用户身份的信息统一保存到服务器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_develop.html" class="md-nav__link">
+        安全开发指南
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_vul.html" class="md-nav__link">
+        安全漏洞列表
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_qa.html" class="md-nav__link">
+        基础安全测试
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_qa.html" class="md-nav__link">
+        安全开发 库
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_test.html" class="md-nav__link">
+        安全自测工具
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_qa.html" class="md-nav__link">
+        第三方漏洞管理
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="security_qa.html" class="md-nav__link">
+        安全运维管理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        安全防御
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="安全防御" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          安全防御
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_protect/index.html" class="md-nav__link">
+        概述
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../answer_pay.html" class="md-nav__link">
+        付费问答
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project.html" class="md-nav__link">
+        项目列表
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact.html" class="md-nav__link">
+        联系我们
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    怎样建个安全系统
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    安全设计
+  </a>
+  
+    <nav class="md-nav" aria-label="安全设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    威胁建模
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    具体解释
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    权限设计
+  </a>
+  
+    <nav class="md-nav" aria-label="权限设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    常见的问题
+  </a>
+  
+    <nav class="md-nav" aria-label="常见的问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    无统一配置访问控制的限制
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#userid" class="md-nav__link">
+    关键字段(如userid)未随机化/加密展示
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    其他建议
+  </a>
+  
+    <nav class="md-nav" aria-label="其他建议">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    前后台拆分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    有关用户身份的信息统一保存到服务器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">安全系统</h1>
+<h2 id="_2">前言</h2>
+<p>最近一位朋友让帮忙审计一套管理系统，说是从客户那接的项目，刚开始心里还是比较忐忑的，已经多年没有做代码审计工作了...，但抓了一下包，发现个未授权+读取任意账号和明文密码,"原来如此简单"...
+程序直接使用http header传递要查询的数据库表和where条件，并且接口没有进行任何权限校验。<br />
+还是比较感慨，安全这几年感觉发展的很快，各种新概念层出不穷，几天不刷朋友圈，就不认识最新的名词，最传统、最基础的安全仿佛是那么的落伍，那么的过时，但从另一方面，很多研发同学，测试同学，对于最基本的安全知识是存在缺失的，很多安全知识可能听过，真正明白的很少，真正用到自身项目中的更是寥寥无几,自然很难构建出安全的系统  </p>
+<p>不禁想起 <strong>怎样才能建个安全系统</strong>?</p>
+<h2 id="_3">怎样建个安全系统</h2>
+<p>看似很简单的问题，但越想越复杂，现在的系统已经非常庞大，涉及到的技术栈也是层出不穷,php,java,python,go,js等，大数据,ai等，让人眼花缭乱，哪个点做的不到位，都可能成为系统中最薄弱的环节，进而导致整个系统沦陷。<br />
+系统广义上讲是对外提供服务的，所以不仅仅包括研发编写的代码，还包括用到的所有第三方代码、运维等，安全系统将会是一个非常大的话题:安全设计、安全开发、安全运维、第三方组件安全等</p>
+<p>本板块将从针对构建系统所涉及到的相关角色进行解析，希望参与方(产品设计、研发、测试、运维)都能关注安全，共同努力构建安全系统。 </p>
+<p><strong>研发和测试同学</strong> </p>
+<ul>
+<li>需要了解<a href="security_develop.html">安全开发指南</a></li>
+<li>需要了解<a href="security_vul.html">常见安全漏洞</a></li>
+<li>需要了解<a href="security_qa.html">基础安全测试</a></li>
+</ul>
+<h2 id="_4">安全设计</h2>
+<h3 id="_5">威胁建模</h3>
+<p>从设计的角度对系统进行评估，试图确认潜在的安全问题，在软件开发生命周期早期发现安全风险，及时修复，节约成本</p>
+<p>主要包括4步:  </p>
+<ul>
+<li>
+<p>系统边界<br />
+  一个新系统的边界是在哪里，这个为入口管控做铺垫  </p>
+</li>
+<li>
+<p>入口管控<br />
+  权限管理/访问控制，有权限的发起方才能使用对应的功能，是一种白名单机制  </p>
+</li>
+<li>
+<p>内部实现<br />
+  有权限的发起方只能做系统允许他们做的事情，如系统设计只允许查询表A，则保证没有SQL注入，让其查询到表B  </p>
+</li>
+<li>
+<p>安全审计<br />
+  当出现安全问题，进行溯源，或者发现问题的根本原因  </p>
+</li>
+</ul>
+<h3 id="_6">具体解释</h3>
+<div class="highlight"><pre><span></span><code>客户端-&gt;服务器: HTTPS 
+服务器--&gt;数据库: 访问控制/数据加密
+服务器-&gt;客户端: 屏蔽错误信息
+</code></pre></div>
+<p><strong>客户端到服务器</strong>  </p>
+<ul>
+<li>
+<p>是否允许访问，在网络上进行限制(VPN限制，IP限制，web服务401限制)  </p>
+</li>
+<li>
+<p>网络通信HTTPS</p>
+</li>
+</ul>
+<p><strong> 服务器接收到客户端请求</strong>  </p>
+<ul>
+<li>
+<p>应用层访问控制，是否允许访问(是否注册、登录、acl是否允许)，会话保存到服务端session  </p>
+</li>
+<li>
+<p>对客户端输入进行白名单校验或黑名单校验  </p>
+</li>
+<li>
+<p>数据库参数化查询，敏感数据加密存储，展示掩码，数据及时远程备份，分权管理  </p>
+</li>
+<li>
+<p>文件操作，禁止控制文件路径(..)，文件上传后缀  </p>
+</li>
+<li>
+<p>捕获服务异常，记录日志远程存储，日志不能包括敏感信息明文  </p>
+</li>
+</ul>
+<p><strong>服务器系统</strong> </p>
+<ul>
+<li>
+<p>主机系统，第三方组件最新版本及时更新补丁  </p>
+</li>
+<li>
+<p>服务最小化部署，删除/修改默认账号，低权限运行服务  </p>
+</li>
+<li>
+<p>禁止上线测试代码，备份代码  </p>
+</li>
+</ul>
+<p><strong>服务器返回数据</strong></p>
+<ul>
+<li>
+<p>输出body编码，返回header设置正确如:application/json  </p>
+</li>
+<li>
+<p>禁止返回错误信息或调试信息到客户端，禁止返回多余信息  </p>
+</li>
+<li>
+<p>敏感数据只用于展示时，需要掩码显示  </p>
+</li>
+</ul>
+<p>注:每个点都有无尽的需要进行补充和完善的，但基本上算是一个简易安全框架，方便记忆和扩展</p>
+<h3 id="_7">权限设计</h3>
+<p>访问控制(权限设计)是一个系统安全的灵魂，如果没有访问控制，很难做一个安全的系统。</p>
+<p>大部分系统采用基于角色的访问控制:先确定系统有哪几种角色(管理员、普通用户、审计员)等，每种角色应该有哪些功能即对应的页面/URL地址</p>
+<h4 id="_8">常见的问题</h4>
+<h5 id="_9">无统一配置访问控制的限制</h5>
+<p>导致很多页面在开发时，由研发自己添加，最终的问题就是研发忘记了添加权限限制，就出现一个未授权访问漏洞，只要不是统一配置访问控制的系统，将会有一个99%的概率出现未授权访问漏洞。</p>
+<h5 id="userid">关键字段(如userid)未随机化/加密展示</h5>
+<p>一般的系统都会有个用户id(如userid)，一般是个int型，从1开始递增，如果系统出现一个遍历userid的查询他人系统的水平越权漏洞，则很容易被攻击者利用。同时根据userid值，也可以知道系统的用户数量。</p>
+<p>从安全的角度，建议将类似userid这样的值变成随机字符串，如无法预测的uuid(补充知识:安全漏洞的生命周期:产生-&gt;发现-&gt;利用-&gt;修复,虽然编写了水平越权漏洞，使得<strong>产生</strong>了一个漏洞，经过足够长的时间，一定会被人发现，但漏洞产生危害需要进行<strong>利用</strong>(遍历这个userid)，userid随机化后，将导致漏洞终止在发现环节，无法进行利用，严格意义上来讲不算一个漏洞)</p>
+<p>有时面临的问题，userid已经创建好了，现在将其随机化，成本会是非常、非常的高，这时可以考虑，在将userid返回到前端前，做个对称加密，当前端传递过来userid后，在进行解密，保证对称加密密钥不泄露，相当于将userid进行了随机化。</p>
+<p>这两种对userid的处理，基本上可以杜绝通过userid的权限问题，也是实现免密登录的一种解决方案。</p>
+<h4 id="_10">其他建议</h4>
+<h5 id="_11">前后台拆分</h5>
+<p>如果您的系统非常庞大，可以将一种角色拆分成一个子系统，分开部署，如普通用户为系统A,放到外网，管理后台为系统B，仅允许内网访问。两个系统通过数据库进行交互，可以拒绝垂直越权(普通用户获得管理员权限)</p>
+<h5 id="_12">有关用户身份的信息统一保存到服务器</h5>
+<p>web系统中的http协议是无状态的，为了维持一个用户的登录状态，必须将登录信息保存起来，常见的两种方案:完全保存到客户端和保存<em>服务端</em>。
+完全保存到客户端如cookie,每次请求都会带上cookie，但由于服务端没有保存，导致无法验证，只能信任客户端传递过来的值。可能产生欺骗，因此使用这种方案时，需要在下发cookie前进行加密，保证cookie在客户端是密文，无法被篡改</p>
+<p>保存服务端如session，这种方案借助特殊cookie与服务器存在信息的映射实现类似信息完全保存在服务端，记住这种方案，保存的信息客户端无法进行修改，比较安全。</p>
+                
+              
+              
+                <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC81NDA3MS8zMDU0Mw==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../index.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 介绍" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              介绍
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="security_develop.html" class="md-footer__link md-footer__link--next" aria-label="下一页: 安全开发指南" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              安全开发指南
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©Copyright 2021 - 安全笔记 小组 - 专注安全防御解决方案 - <a href="http://anquanbiji.com" target="_blank"><strong>安全笔记网站</strong></a>
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.febc23d1.min.js"></script>
+      
+    
+  </body>
+</html>

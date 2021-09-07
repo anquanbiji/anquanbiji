@@ -1,0 +1,32 @@
+site_name: 安全笔记
+theme:
+  name: material
+  language: zh
+site_description: 安全笔记是专注安全防御解决方案,通过搜集、整理、验证、加工安全防护知识，提供一套完整的安全防御解决方案，帮助企业提升安全防护能力
+site_author: anquanbiji.com
+copyright:  ©Copyright 2021 - 安全笔记 小组 - 专注安全防御解决方案 - <a href="http://anquanbiji.com" target="_blank"><strong>安全笔记网站</strong></a> 
+use_directory_urls: false
+  
+# 支持时序图
+markdown_extensions:
+    - pymdownx.superfences
+ 
+
+nav:
+    - 介绍: index.md
+    #- 安全加固:
+    #    - 概述: security_baseline/index.md 
+    - 安全系统: 
+        - 概述: security_system/index.md
+        - 安全开发指南: security_system/security_develop.md
+        - 安全漏洞列表: security_system/security_vul.md
+        - 基础安全测试: security_system/security_qa.md
+        - 安全开发 库: security_system/security_qa.md
+        - 安全自测工具: security_system/security_test.md
+        - 第三方漏洞管理: security_system/security_dependency.md
+        - 安全运维管理: security_system/security_qa.md
+    - 安全防御:
+        - 概述: security_protect/index.md 
+    - 付费问答: answer_pay.md 
+    - 项目列表: project.md 
+    - 联系我们: contact.md 
