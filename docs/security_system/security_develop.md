@@ -124,3 +124,44 @@ owasp编码指南基本上涵盖了常见的安全问题，是一份很好的检
 
 **腾讯编写**  
 [Go安全指南](https://github4.com/Tencent/secguide/blob/main/Go%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md "腾讯编写 go语言安全开发指南")
+
+## 移动安全  
+随着移动时代的到来，移动安全更加的重要。移动端安全与服务端有很多相似之处，但由于移动端引入了新的技术，如安卓操作系统，ios操作系统，与原始的windows、centos存在差异，在原有安全问题基础上带来了一些新的问题，或者将原来的问题以新的形式进行展现   
+
+### [owasp 移动安全top 10](https://owasp.org/www-project-mobile-top-10/ "移动安全top 10")
+
+由于没有中文版本，所以有些翻译不一定准确，请大家对照英文自行确认  
+#### Improper Platform Usage(脆弱的服务器端安全控制)
+移动移动应用程序没有以一个安全的方式向服务器发送数据，或在发送数据时暴露了一些敏感的 API  
+不正确的使用系统提供的API功能，或者没有使用系统提供了安全机制，而是自己开发脆弱的机制  
+
+#### Insecure Data Storage(不安全的数据存储)
+当设备丢失或已经越狱的设备，可能导致存在设备上的敏感信息丢失   
+敏感信息不应该保存在   
+- URL caching (both request and response);   
+- Keyboard press caching;   
+- Copy/Paste buffer caching;   
+- Application backgrounding;   
+- Intermediate data   
+- Logging;  
+- HTML5 data storage;  
+- Browser cookie objects;   
+- Analytics data sent to 3rd parties.   
+
+#### insecure-communication(不安全传输)
+数据在传输过程中被篡改，并且没有被发现  
+
+建议网络通信: HTTPS + 数据层二次加密(每个用户一个密钥)   
+
+#### Insecure Authentication
+
+
+### 相关资料  
+
+[owasp 移动安全top 10](https://owasp.org/www-project-mobile-top-10/ "移动安全top 10")
+
+[owasp 移动安全测试标准](https://github.com/OWASP/owasp-masvs "owasp 移动安全测试标准")
+
+[owasp 移动安全测试向导](https://github.com/OWASP/owasp-mstg "owasp 移动安全测试向导")
+
+[appsec wiki](https://appsecwiki.com/#/mobilesecurity "安全相关wiki 非常不错")

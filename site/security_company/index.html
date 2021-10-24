@@ -1,0 +1,1726 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="安全笔记是专注安全防御解决方案,通过搜集、整理、验证、加工安全防护知识，提供一套完整的安全防御解决方案，帮助企业提升安全防护能力">
+      
+      
+      
+        <meta name="author" content="anquanbiji.com">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+    
+    
+      
+        <title>概述 - 安全笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.802231af.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="安全笔记" class="md-header__button md-logo" aria-label="安全笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            安全笔记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              概述
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="安全笔记" class="md-nav__button md-logo" aria-label="安全笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    安全笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        安全系统
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="安全系统" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          安全系统
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/index.html" class="md-nav__link">
+        概述
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_develop.html" class="md-nav__link">
+        安全开发指南
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_mobile.html" class="md-nav__link">
+        移动安全指南
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_vul.html" class="md-nav__link">
+        安全漏洞列表
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_qa.html" class="md-nav__link">
+        基础安全测试
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_qa.html" class="md-nav__link">
+        安全开发 库
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_test.html" class="md-nav__link">
+        安全自测工具
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_dependency.html" class="md-nav__link">
+        第三方漏洞管理
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security_system/security_qa.html" class="md-nav__link">
+        安全运维管理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        安全建设
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="安全建设" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          安全建设
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          概述
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        概述
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    核心目标
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    基本原则
+  </a>
+  
+    <nav class="md-nav" aria-label="基本原则">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    预防
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    场景/适合/平衡
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    生命周期管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    所需/权限最小化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    纵深防御
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    企业安全需要做什么
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全需要做什么">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    安全基本分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    从内因和外因
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppdr" class="md-nav__link">
+    PPDR(安全策略、保护、检测、响应)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    人员、技术、管理、工程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    具体是哪些内容
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    企业安全需要怎么做
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全需要怎么做">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pdca" class="md-nav__link">
+    PDCA(计划、实施、检查、改进)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    制度/规范制定、实施、检测
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    企业安全做的怎么样
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全做的怎么样">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    自评估
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    检查评估
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    企业安全建设
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全建设">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    制度法规建设
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    办公安全
+  </a>
+  
+    <nav class="md-nav" aria-label="办公安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    网络
+  </a>
+  
+    <nav class="md-nav" aria-label="网络">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    网络隔离
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    身份验证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    流量审计
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    个人电脑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    办公服务
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    物理安全
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    基础安全
+  </a>
+  
+    <nav class="md-nav" aria-label="基础安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    账号
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    身份验证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    访问控制管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    安全审计
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    数据加解密
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    应用安全
+  </a>
+  
+    <nav class="md-nav" aria-label="应用安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pm" class="md-nav__link">
+    PM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    开发
+  </a>
+  
+    <nav class="md-nav" aria-label="开发">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    自动化检测方案
+  </a>
+  
+    <nav class="md-nav" aria-label="自动化检测方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#php" class="md-nav__link">
+    PHP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    测试
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    运维
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    数据安全
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    网络安全
+  </a>
+  
+    <nav class="md-nav" aria-label="网络安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    网络隔离
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    可用性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    安全运营
+  </a>
+  
+    <nav class="md-nav" aria-label="安全运营">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    安全意识建设
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    资产管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    补丁管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    安全防护持续生效和更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    应急响应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../answer_pay.html" class="md-nav__link">
+        付费问答
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project.html" class="md-nav__link">
+        项目列表
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact.html" class="md-nav__link">
+        联系我们
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../todo.html" class="md-nav__link">
+        计划表
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    核心目标
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    基本原则
+  </a>
+  
+    <nav class="md-nav" aria-label="基本原则">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    预防
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    场景/适合/平衡
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    生命周期管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    所需/权限最小化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    纵深防御
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    企业安全需要做什么
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全需要做什么">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    安全基本分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    从内因和外因
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppdr" class="md-nav__link">
+    PPDR(安全策略、保护、检测、响应)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    人员、技术、管理、工程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    具体是哪些内容
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    企业安全需要怎么做
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全需要怎么做">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pdca" class="md-nav__link">
+    PDCA(计划、实施、检查、改进)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    制度/规范制定、实施、检测
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    企业安全做的怎么样
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全做的怎么样">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    自评估
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    检查评估
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    企业安全建设
+  </a>
+  
+    <nav class="md-nav" aria-label="企业安全建设">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    制度法规建设
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    办公安全
+  </a>
+  
+    <nav class="md-nav" aria-label="办公安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    网络
+  </a>
+  
+    <nav class="md-nav" aria-label="网络">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    网络隔离
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    身份验证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    流量审计
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    个人电脑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    办公服务
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    物理安全
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    基础安全
+  </a>
+  
+    <nav class="md-nav" aria-label="基础安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    账号
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    身份验证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    访问控制管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    安全审计
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    数据加解密
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    应用安全
+  </a>
+  
+    <nav class="md-nav" aria-label="应用安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pm" class="md-nav__link">
+    PM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    开发
+  </a>
+  
+    <nav class="md-nav" aria-label="开发">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    自动化检测方案
+  </a>
+  
+    <nav class="md-nav" aria-label="自动化检测方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#php" class="md-nav__link">
+    PHP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    测试
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    运维
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    数据安全
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    网络安全
+  </a>
+  
+    <nav class="md-nav" aria-label="网络安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    网络隔离
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    可用性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    安全运营
+  </a>
+  
+    <nav class="md-nav" aria-label="安全运营">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    安全意识建设
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    资产管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    补丁管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    安全防护持续生效和更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    应急响应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">企业安全建设</h1>
+<h2 id="_2">核心目标</h2>
+<p>企业的目标为了盈利(赚钱)，没有盈利的企业并且没有人投资，只要关门跑路已经成为事实。<br />
+因此企业业务和安全之间存在了微妙的关系-一定要有业务，才需要有安全，同时完全失去安全，业务也可能会死。<br />
+安全对业务来说:保障业务安全，促进业务发展  </p>
+<p>目标:保障企业资产的机密性、可用性、完整性, 促进业务的持续发展 -&gt; 保障业务安全，促进业务发展</p>
+<h2 id="_3">基本原则</h2>
+<p>安全建设者: 通过自动化、闭环的方法，将安全策略在企业中落地，使得安全防护持续生效，保障和促进业务发展。<br />
+安全建设者: 识别风险 -&gt; 给出建议 -&gt; 最终达到平衡(成本/收益) <br />
+安全建设者: 预防、平衡、生命周期  </p>
+<h3 id="_4">预防</h3>
+<ul>
+<li>没有安全问题<br />
+  通过基线加固使其达到-&gt;没有问题 </li>
+<li>内部发现处理<br />
+在测试环境<br />
+上线后内部优先发现  </li>
+<li>别人攻击初期能够检测<br />
+  及时响应，进行止损，在风险控制在接受范围</li>
+</ul>
+<h3 id="_5">场景/适合/平衡</h3>
+<p>安全的框架和解决方案其实比较多，哪个更好?<br />
+其实没有统一标准，适合现在的情况，满足现在、能够落地、可能就是"当前最好"。<br />
+方案中，需要不断的去思考: 成本与收益, 平衡两者之间的关系   </p>
+<h3 id="_6">生命周期管理</h3>
+<ul>
+<li>
+<p>做事情要有生命周期意识，才能做好<br />
+比如制度的执行，包括制度的制定、制度的执行、制度的落实情况检查</p>
+</li>
+<li>
+<p>考虑问题要从全局出发，看的全面，也更容易解决<br />
+漏洞管理中权限的闭环检测，单纯检测权限的漏洞，无论从白盒和黑盒很难实现自动化的检测。<br />
+但我们从权限漏的整个生命周期去思考: 漏洞的产生-&gt;漏洞发现-&gt;漏洞利用-&gt;漏洞修复，既然我们搞不定漏洞自动化发现，是不是可以在漏洞利用的地方采取措施? 权限漏洞利用时，往往需要去遍历一个可预测的参数，只要将该参数变成随时的，让攻击者无法成功预测别人的参数，进而无法利用权限漏洞的目的。</p>
+</li>
+</ul>
+<h3 id="_7">所需/权限最小化</h3>
+<ul>
+<li>不需要的XX，最好关闭，防止未知漏洞</li>
+<li>需要时，将设置成最小集，满足需求</li>
+</ul>
+<h3 id="_8">纵深防御</h3>
+<ul>
+<li>攻击是全套流程，在每层都需要进行安全加固，才能禁止大的攻击</li>
+</ul>
+<h2 id="_9">企业安全需要做什么</h2>
+<p>企业安全更多的时候是做风险管理，风险是什么?风险是怎么产生的?风险分析?风险需要怎么处理?   </p>
+<h3 id="_10">安全基本分类</h3>
+<p>物理安全 <br />
+网络安全<br />
+应用安全<br />
+主机安全 <br />
+数据安全<br />
+制度管理  </p>
+<h3 id="_11">从内因和外因</h3>
+<p>内因-&gt;脆弱性-&gt;提高自身的安全防护能力，尽可能减少脆弱性 -&gt; 安全加固 <br />
+外因-&gt;威胁 -&gt; 减少暴露面，实现最小化权限</p>
+<h3 id="ppdr">PPDR(安全策略、保护、检测、响应)</h3>
+<p>也可以归结为 事前、事中、事后原则</p>
+<ul>
+<li>没有安全问题<br />
+  通过基线加固使其达到-&gt;没有问题 </li>
+<li>内部发现处理<br />
+在测试环境<br />
+上线后内部优先发现  </li>
+<li>别人攻击初期能够检测<br />
+  及时响应，进行止损，在风险控制在接受范围</li>
+</ul>
+<h3 id="_12">人员、技术、管理、工程</h3>
+<p>人员
+是成败的核心</p>
+<h3 id="_13">具体是哪些内容</h3>
+<p>资产管理 <br />
+网络与边界防护 <br />
+身份验证和访问控制 <br />
+安全开发和测试 <br />
+安全审计   </p>
+<h2 id="_14">企业安全需要怎么做</h2>
+<h3 id="pdca">PDCA(计划、实施、检查、改进)</h3>
+<h3 id="_15">制度/规范制定、实施、检测</h3>
+<h2 id="_16">企业安全做的怎么样</h2>
+<h3 id="_17">自评估</h3>
+<p>企业内部组建评估团队，对各项工作进行评估，已完成项，及改进项  </p>
+<h3 id="_18">检查评估</h3>
+<p>聘请第三方权威机构进行评估，如等保测评，iso27001认证等等 </p>
+<h2 id="_19">企业安全建设</h2>
+<h3 id="_20">制度法规建设</h3>
+<ul>
+<li>方针,目标: 总体要求</li>
+<li>法规制度文档</li>
+</ul>
+<p>等级保护
+TC260 - GB、GB/T、GB/Z
+ISO27001
+NIST
+CIS</p>
+<h3 id="_21">办公安全</h3>
+<h4 id="_22">网络</h4>
+<p>核心防护是隔离和访问控制，划分安全区域(根据安全级别):财务、人力、审计
+是否允许上外网?</p>
+<h5 id="_23">网络隔离</h5>
+<p>核心部门划分不同的安全区域(财务、人力、审计)</p>
+<p>个人PC间网络隔离</p>
+<p>禁止自建WIFI</p>
+<h5 id="_24">身份验证</h5>
+<ul>
+<li>
+<p>有线网络
+与mac地址进行绑定,使用个人AD账号进行认证</p>
+</li>
+<li>
+<p>无线网络
+访客专用wifi只能访问互联网<br />
+办公wifi 使用AD账号进行登陆<br />
+测试wifi，只允许在手机上访问测试环境  </p>
+</li>
+<li>
+<p>网络设备
+  核心管理后台，需要双因素认证</p>
+</li>
+</ul>
+<h5 id="_25">流量审计</h5>
+<ul>
+<li>
+<p>监控流量
+  从内网发起的扫描攻击请求，恶意请求，访问非法网站</p>
+</li>
+<li>
+<p>流量记录<br />
+方便跟踪溯源<br />
+https://www.ntop.org/products/traffic-analysis/ntop/</p>
+</li>
+</ul>
+<h4 id="_26">个人电脑</h4>
+<ul>
+<li>
+<p>基础加固<br />
+  统一安全基础镜像，定时更新镜像，配置安全加固基线<br />
+  开启防火墙<br />
+  安装杀毒软件<br />
+  补丁更新  </p>
+</li>
+<li>
+<p>防丢失<br />
+BitLocker加密敏感数据<br />
+文件夹设置密码<br />
+内部敏感文件需要设置密码  </p>
+</li>
+<li>
+<p>重要数据远程备份<br />
+账号和密码管理方法<br />
+防止电脑丢失，硬盘损坏等问题，可以使用实时备份工具<br />
+方案1: 自己手动备份，定期提醒自己进行手动操作进行备份<br />
+方案2: 自动实时备份工具，将本地重要文件同步到远端，开源网盘nextcloud <br />
+方案3: 解决勒索病毒问题:需要一份实时备份，并且有版本控制的软件  </p>
+</li>
+<li>
+<p>统一管理<br />
+可以监控个人电脑安装的软件列表<br />
+管理员远程协助操作(需要用户授权)  </p>
+</li>
+<li>
+<p>其他<br />
+  人员离职<br />
+  借还电脑、共用硬盘、清理数据  </p>
+</li>
+</ul>
+<h4 id="_27">办公服务</h4>
+<ul>
+<li>
+<p>AD安全配置<br />
+禁止普通域账号登陆AD<br />
+禁止域账号是个人电脑的管理员或互相覆盖<br />
+超级管理员账号管理(有很多情况，比如数据同步设置的超级管理员，不能定期修改密码-维护成本太高或者是弱密码，或者已经被共享到github还不太清楚)  </p>
+</li>
+<li>
+<p>EMAIL服务<br />
+  认证、外网登陆双因素</p>
+</li>
+<li>
+<p>VPN服务<br />
+认证、权限划分、日志监控</p>
+</li>
+<li>
+<p>其他可能需要的服务<br />
+考勤机?会议系统?文件共享系统?</p>
+</li>
+</ul>
+<h4 id="_28">物理安全</h4>
+<p>门禁和摄像头
+机房管理</p>
+<h3 id="_29">基础安全</h3>
+<h4 id="_30">账号</h4>
+<p>一人一账号，密码复杂度，定期修改，是否有双因素<br />
+基于日志进行监控是否有异常账号操作（账号混用)<br />
+特权账号/管理员账号 需要定期修改密码(防止泄露后一直被使用)<br />
+账号和密码本地存储，需要本地加密存储<br />
+账号总类:个人账号、超管账号、外部平台(内部共享账号-人员离职时是否修改)  </p>
+<h4 id="_31">身份验证</h4>
+<p>核心服务, 核心应用，需要开启双因素认证</p>
+<h4 id="_32">访问控制管理</h4>
+<h4 id="_33">安全审计</h4>
+<h4 id="_34">数据加解密</h4>
+<p>实现及密钥管理,密钥更换</p>
+<h3 id="_35">应用安全</h3>
+<h4 id="pm">PM</h4>
+<p>设计问题</p>
+<h4 id="_36">开发</h4>
+<h5 id="_37">自动化检测方案</h5>
+<h6 id="php">PHP</h6>
+<h4 id="_38">测试</h4>
+<h4 id="_39">运维</h4>
+<ul>
+<li>内外网混部  </li>
+<li>外部IP暴露  </li>
+</ul>
+<h3 id="_40">数据安全</h3>
+<h3 id="_41">网络安全</h3>
+<h4 id="_42">网络隔离</h4>
+<p>边界清晰，将安全风险控制在一个特定区域</p>
+<h4 id="_43">可用性</h4>
+<p>抗DDoS是网络层常面临的重要风险之一，主要原因攻击成本太低，防护成本太高</p>
+<p>自建IDC+云防护，一定要保护好IDC真实IP，防止被绕过</p>
+<p>发现真实IP方法: MX, TXT记录，遍历域名解析，老的DNS解析记录，web返回头中的特殊标记X-liangxin-a结合fofa</p>
+<p>各个业务使用不同的IP出口，这样在受到攻击时，可以摘掉一个业务的IP, 其他业务不受影响。
+出口IP被攻击，一般的正向代理无法防护，只能针对IP进行防护，比如云堤系统</p>
+<h3 id="_44">安全运营</h3>
+<h4 id="_45">安全意识建设</h4>
+<ul>
+<li>内部制度、红线</li>
+<li>内部培训/考试</li>
+<li>
+<p>日常报警跟进<br />
+报警的分析和总结是非常重要的  <br />
+起到通知、总结和改进，不要规避自身不足，正式问题 才能提高<br />
+也可以抄送领导，报警系统/设备的价值，及领导的补充  </p>
+</li>
+<li>
+<p>其他公司安全事件学习总结</p>
+</li>
+</ul>
+<h4 id="_46">资产管理</h4>
+<p>梳理公司目前的资产，主要为了实现加固、及监控未来暴露的最新漏洞、应急响应过程中的跟进等</p>
+<p>第三方包最新漏洞跟进 可以通过owasp dependency-check工具进行实现 https://owasp.org/www-project-dependency-check/</p>
+<h4 id="_47">补丁管理</h4>
+<h4 id="_48">安全防护持续生效和更新</h4>
+<h4 id="_49">应急响应</h4>
+<ul>
+<li>
+<p>google拦截域名
+  https://transparencyreport.google.com/safe-browsing/search?url=baidu.com&amp;hl=zh-CN</p>
+</li>
+<li></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../security_system/security_qa.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 安全运维管理" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              安全运维管理
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../answer_pay.html" class="md-footer__link md-footer__link--next" aria-label="下一页: 付费问答" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              付费问答
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©Copyright 2021 - 安全笔记 小组 - 专注安全防御解决方案 - <a href="http://anquanbiji.com" target="_blank"><strong>安全笔记网站</strong></a>
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.756773cc.min.js"></script>
+      
+    
+  </body>
+</html>
